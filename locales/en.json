@@ -1,0 +1,54 @@
+{
+    "liste": {
+        "description": "List servers and view emojis",
+        "emojiSystemNotEnabled": "Emoji system is not enabled for this server.",
+        "selectGuildPlaceholder": "Select a server",
+        "selectGuildDescription": "Which server's emojis would you like to see?",
+        "guilds": "Servers",
+        "guildDescription": "Total Emojis: {{total}}, Animated: {{animated}}, Static: {{static}}",
+        "guildNotAccessible": "Cannot access this server.",
+        "noEmojis": "This server has no emojis.",
+        "selectEmojiPlaceholder": "Select an emoji",
+        "selectGuildButton": "Select Server",
+        "guildEmojisTitle": "Server: {{guildName}}",
+        "guildEmojisDescription": "Emojis in the server:\nEmojis added to this server: {{emojisTransferred}}",
+        "emojiNotFound": "This emoji was not found.",
+        "emojiAlreadyExists": "This emoji already exists in the server.",
+        "emojiAdded": "Selected emoji: {{selectedEmoji}} ({{selectedEmojiName}}) added to the server: {{newEmoji}}",
+        "emojiAddError": "An error occurred while adding the emoji.",
+        "timeout": "Timed out."
+    },
+    "dil": {
+        "description": "Change the language",
+        "selectPlaceholder": "Select a language",
+        "title": "Language Selection",
+        "updated": "Language updated to {{language}}.",
+        "timeout": "Timeout."
+    },
+    "database": {
+        "error": "Database error."
+    },
+    "command": {
+        "error": "An error occurred while executing the command: {{error}}"
+    },
+    "emoji_system_status": "Emoji System Status",
+    "emoji_system_enabled": "The system has been activated successfully",
+    "emoji_system_disabled": "The system has been successfully deactivated",
+    "emojis_sent": "Emojis Sent",
+    "emojis_received": "Emojis Received",
+    "database_error": "Database error.",
+    "selectLanguage": "Please select a language.",
+    "language_set": "Language has been set to English.",
+    "server": "Server", 
+    "ss": "On", 
+    "ss2": "Off",
+    "help": {
+        "description": "Displays a paginated help menu", 
+        "help_title": "Help Menu",
+        "help_description": "Here is a list of available commands:",
+        "previous_page": "Previous Page",
+        "next_page": "Next Page"
+    },
+    "previous_button": "Previous Page",
+    "next_button": "Next Page"
+}
