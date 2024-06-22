@@ -1,0 +1,54 @@
+{
+    "liste": {
+        "description": "Sunucuları listele ve emojileri görüntüle",
+        "emojiSystemNotEnabled": "Emoji sistemi bu sunucu için etkin değil.",
+        "selectGuildPlaceholder": "Bir sunucu seçin",
+        "selectGuildDescription": "Hangi sunucudaki emojileri görmek istersiniz?",
+        "guilds": "Sunucular",
+        "guildDescription": "Toplam Emoji: {{total}}, Hareketli: {{animated}}, Hareketsiz: {{static}}",
+        "guildNotAccessible": "Bu sunucuya erişilemiyor.",
+        "noEmojis": "Bu sunucuda emoji bulunmamaktadır.",
+        "selectEmojiPlaceholder": "Bir emoji seçin",
+        "selectGuildButton": "Sunucu Seç",
+        "guildEmojisTitle": "Sunucu: {{guildName}}",
+        "guildEmojisDescription": "Sunucudaki emojiler:\nBu sunucuya eklenen emojiler: {{emojisTransferred}}",
+        "emojiNotFound": "Bu emoji bulunamadı.",
+        "emojiAlreadyExists": "Bu emoji zaten sunucuda mevcut.",
+        "emojiAdded": "Seçilen emoji: {{selectedEmoji}} ({{selectedEmojiName}}) sunucuya eklendi: {{newEmoji}}",
+        "emojiAddError": "Emoji eklenirken bir hata oluştu.",
+        "timeout": "Zaman aşımına uğradı."
+    },
+    "dil": {
+        "description": "Dili değiştir",
+        "selectPlaceholder": "Bir dil seçin",
+        "title": "Dil Seçimi",
+        "updated": "Dil {{language}} olarak güncellendi.",
+        "timeout": "Zaman aşımı."
+    },
+    "database": {
+        "error": "Veritabanı hatası."
+    },
+    "command": {
+        "error": "Komut yürütülürken bir hata oluştu: {{error}}"
+    },
+    "emoji_system_status": "Emoji Sistemi Durumu",
+        "emoji_system_enabled": "Açık",
+        "emoji_system_disabled": "Kapalı",
+        "emojis_sent": "Gönderilen Emojiler",
+        "emojis_received": "Alınan Emojiler",
+        "database_error": "Veritabanı hatası.",
+        "selectLanguage": "Lütfen bir dil seçiniz.",
+        "language_set": "Dil Türkçe olarak ayarlandı.",
+        "server": "Sunucu",
+    "ss": "Açık",
+    "ss2": "Kapalı",
+        "help": {
+        "description": "Sayfalı bir yardım menüsü gösterir", 
+        "help_title": "Yardım Menüsü",
+        "help_description": "Mevcut komutların listesi:",
+        "previous_page": "Önceki Sayfa",
+        "next_page": "Sonraki Sayfa"
+    },
+    "previous_button": "Önceki Sayfa",
+    "next_button": "Sonraki Sayfa"
+}
