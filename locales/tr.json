@@ -50,5 +50,11 @@
         "next_page": "Sonraki Sayfa"
     },
     "previous_button": "Önceki Sayfa",
-    "next_button": "Sonraki Sayfa"
+    "next_button": "Sonraki Sayfa",
+    "invite": {
+        "title": "Invite the Bot",
+        "description": "Use the buttons below to invite the bot to your server or join our support server.",
+        "inviteButton": "Invite Bot",
+        "supportButton": "Support Server"
+    }
 }
