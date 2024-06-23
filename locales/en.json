@@ -51,4 +51,10 @@
     },
     "previous_button": "Previous Page",
     "next_button": "Next Page"
-}
+},
+"invite": {
+        "title": "Invite the Bot",
+        "description": "Use the buttons below to invite the bot to your server or join our support server.",
+        "inviteButton": "Invite Bot",
+        "supportButton": "Support Server"
+    }
