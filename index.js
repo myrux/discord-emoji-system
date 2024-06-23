@@ -31,6 +31,8 @@ for (const file of commandFiles) {
 client.once("ready", async () => {
     console.log(`Logged in as ${client.user.tag}!`);
     console.log("Bot çalışmaya hazır.");
+    updateActivity();
+    setInterval(updateActivity, 60000); // 60 saniyede bir durumu güncelle
 });
 
 client.on("messageCreate", async (message) => {
@@ -92,35 +94,49 @@ client.on("guildCreate", async (guild) => {
             }
         },
     );
-});
-//client.login(process.env.DISCORD_TOKEN);
-client.login(config.token);
-// Sunucuya eklendiğinde log gönderme
-client.on("guildCreate", (guild) => {
-    const logChannel = "1253997194751508511";
-    const channel = guild.client.channels.cache.get(logChannel);
+
+    // Bot sunucuya eklendiğinde log gönderme
+    const logChannelId = "1253997194751508511";
+    const channel = client.channels.cache.get(logChannelId);
 
     if (channel) {
         channel.send(
-            `Bot ${guild.name} sunucusuna eklendi. Sunucu ID'si: ${guild.id}`,
+            `Bot has been added to ${guild.name}. Server ID: ${guild.id}`,
         );
     }
     console.log(
-        `Bot ${guild.name} sunucusuna eklendi. Sunucu ID'si: ${guild.id}`,
+        `Bot has been added to ${guild.name}. Server ID: ${guild.id}`,
     );
 });
 
-// Sunucudan çıkarıldığında log gönderme
-client.on("guildDelete", (guild) => {
-    const logChannell = "1253997232709963857";
-    const channell = guild.client.channels.cache.get(logChannell);
+client.on("guildDelete", async (guild) => {
+    // Bot sunucudan çıkarıldığında log gönderme
+    const logChannelId = "1253997232709963857";
+    const channel = client.channels.cache.get(logChannelId);
 
-    if (channell) {
-        channell.send(
-            `Bot ${guild.name} sunucusundan çıkarıldı. Sunucu ID'si: ${guild.id}`,
+    if (channel) {
+        channel.send(
+            `Bot has been removed from ${guild.name}. Server ID: ${guild.id}`,
         );
     }
     console.log(
-        `Bot ${guild.name} sunucusundan çıkarıldı. Sunucu ID'si: ${guild.id}`,
+        `Bot has been removed from ${guild.name}. Server ID: ${guild.id}`,
     );
 });
+
+client.login(config.token);
+
+// Oynuyor kısmını güncelleyen işlev
+const activities = [
+    "!help",
+    "",
+    "",
+    "",
+    ""
+];
+
+function updateActivity() {
+    const activity = activities[Math.floor(Math.random() * activities.length)];
+    client.user.setActivity(activity, { type: "PLAYING" });
+}
+
