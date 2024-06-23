@@ -52,9 +52,9 @@
     "previous_button": "Önceki Sayfa",
     "next_button": "Sonraki Sayfa",
     "invite": {
-        "title": "Invite the Bot",
-        "description": "Use the buttons below to invite the bot to your server or join our support server.",
-        "inviteButton": "Invite Bot",
-        "supportButton": "Support Server"
+      "title": "Botu Davet Et",
+        "description": "Botu sunucunuza davet etmek veya destek sunucumuza katılmak için aşağıdaki butonları kullanın.",
+        "inviteButton": "Botu Davet Et",
+        "supportButton": "Destek Sunucusu"
     }
 }
